@@ -1,0 +1,33 @@
+page-home {
+  $colors: (
+  invisivel: transparent,
+  primary: #387ef5,
+  secondary: #32db64,
+  danger: #f53d3d,
+  light: #f4f4f4,
+  );
+  ion-title{
+    text-align: center;
+  }
+
+  ion-slide {
+       background-color: #13d4f7;
+       height: 60vh !important;
+       width: auto !important;
+     }
+
+     ion-slide img {
+       height: 50vh !important;
+       width: 48.1vh !important;
+     }
+
+     ion-slide h1{
+       color: #09252b;
+     }
+     ion-slide p{
+        width: 45vh !important;
+        font-size: 15px;
+        text-align: justify;
+     }
+
+}
